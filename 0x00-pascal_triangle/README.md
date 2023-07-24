@@ -1,26 +1,6 @@
 # Pascal's Triangle Function
 
 This repository contains a Python function that generates Pascal's Triangle up to the specified number of rows.
-
-## Function Details
-
-### `def pascal_triangle(n):`
-
-This function takes an integer `n` as input and returns a list of lists of integers representing Pascal's Triangle up to the `n`th row.
-
-#### Parameters:
-
-- `n` (int): The number of rows to generate for Pascal's Triangle.
-
-#### Returns:
-
-- `list`: A list of lists of integers representing Pascal's Triangle.
-
-#### Constraints:
-
-- Returns an empty list if `n <= 0`.
-- Assumes `n` will always be an integer.
-
 ## Example Usage
 
 ```python
