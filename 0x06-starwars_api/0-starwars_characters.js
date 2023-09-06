@@ -1,4 +1,4 @@
-#!/home/leuel/.nvm/versions/node/v10.14.2/bin/node
+#!/usr/bin/node
 const args = process.argv;
 const request = require('request');
 
