@@ -22,6 +22,7 @@ def island_perimeter(grid: List[List[int]]) -> int:
         return 0 <= row < r and 0 <= col < c and grid[row][col] != 0
 
     def find_perimeter(row: int, col: int) -> int:
+        """returns the perimeter of the island"""
         if not inbound(row, col):
             return 1
 
