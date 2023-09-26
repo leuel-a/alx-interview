@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """Defines the island_perimeter function that finds the perimeter of
 and island in a grid"""
 from typing import List
