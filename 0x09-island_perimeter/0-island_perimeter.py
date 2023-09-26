@@ -1,10 +1,9 @@
 #!/usr/bin/python3
 """Defines the island_perimeter function that finds the perimeter of
 and island in a grid"""
-from typing import List
 
 
-def island_perimeter(grid: List[List[int]]) -> int:
+def island_perimeter(grid) -> int:
     """Returns the perimeter of an island in a given grid"""
     result = 0
     visited = set()
